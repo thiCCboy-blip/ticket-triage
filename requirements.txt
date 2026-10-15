@@ -1,0 +1,3 @@
+# Optional: only needed for --provider anthropic (Claude).
+# --provider openai / --provider nvidia / --mock use only the Python stdlib.
+anthropic>=0.40.0

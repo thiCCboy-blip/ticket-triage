@@ -1,0 +1,559 @@
+{
+  "provider": "nvidia",
+  "model": "openai/gpt-oss-20b",
+  "timestamp": "2026-10-15T17:21:44.356308+00:00",
+  "total": 50,
+  "valid_json": 50,
+  "results": [
+    {
+      "id": 1,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "medium",
+        "summary": "App crashes uploading PDFs over 25MB"
+      },
+      "errors": []
+    },
+    {
+      "id": 2,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "billing",
+        "urgency": "high",
+        "summary": "Duplicate $49 charge on Oct 3, request refund"
+      },
+      "errors": []
+    },
+    {
+      "id": 3,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "account",
+        "urgency": "high",
+        "summary": "Password reset email not received for jose@northwind.io"
+      },
+      "errors": []
+    },
+    {
+      "id": 4,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "shipping",
+        "urgency": "medium",
+        "summary": "Package marked delivered but not received, order #58210"
+      },
+      "errors": []
+    },
+    {
+      "id": 5,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "high",
+        "summary": "POST /v2/orders returning HTTP 500 errors since morning"
+      },
+      "errors": []
+    },
+    {
+      "id": 6,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "product_defect",
+        "urgency": "medium",
+        "summary": "CM-200 coffee machine leaks after brew, no visible crack"
+      },
+      "errors": []
+    },
+    {
+      "id": 7,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "feature_request",
+        "urgency": "low",
+        "summary": "Request dark mode toggle for dashboard"
+      },
+      "errors": []
+    },
+    {
+      "id": 8,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "billing",
+        "urgency": "medium",
+        "summary": "Request to switch team plan to annual and inquire about credit"
+      },
+      "errors": []
+    },
+    {
+      "id": 9,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "account",
+        "urgency": "high",
+        "summary": "Add second workspace admin without sharing credentials"
+      },
+      "errors": []
+    },
+    {
+      "id": 10,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "account",
+        "urgency": "high",
+        "summary": "2FA codes rejected at login, backup codes fail"
+      },
+      "errors": []
+    },
+    {
+      "id": 11,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "product_defect",
+        "urgency": "medium",
+        "summary": "Received black headset instead of blue, wants exchange"
+      },
+      "errors": []
+    },
+    {
+      "id": 12,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "medium",
+        "summary": "Dashboard loads 20-30 seconds for EU users since Monday"
+      },
+      "errors": []
+    },
+    {
+      "id": 13,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "product_defect",
+        "urgency": "critical",
+        "summary": "Swollen battery and non-clicking trackpad on X1-C laptop"
+      },
+      "errors": []
+    },
+    {
+      "id": 14,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "other",
+        "urgency": "medium",
+        "summary": "Request reopening of ticket #8821; issue unresolved after closure"
+      },
+      "errors": []
+    },
+    {
+      "id": 15,
+      "tag": "clear",
+      "valid": true,
+      "result": {
+        "category": "shipping",
+        "urgency": "low",
+        "summary": "Request to change delivery address for order 58291 before shipping"
+      },
+      "errors": []
+    },
+    {
+      "id": 16,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "billing",
+        "urgency": "high",
+        "summary": "Charged $299 after cancellation; request refund and threat of chargeback"
+      },
+      "errors": []
+    },
+    {
+      "id": 17,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "critical",
+        "summary": "Editor crashed, unsaved drafts lost, user requests restoration"
+      },
+      "errors": []
+    },
+    {
+      "id": 18,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "complaint",
+        "urgency": "low",
+        "summary": "User demands revert of new icon color palette"
+      },
+      "errors": []
+    },
+    {
+      "id": 19,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "billing",
+        "urgency": "high",
+        "summary": "Refund pending after six weeks of returned item"
+      },
+      "errors": []
+    },
+    {
+      "id": 20,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "billing",
+        "urgency": "high",
+        "summary": "Overcharged monthly since June, demands immediate fix"
+      },
+      "errors": []
+    },
+    {
+      "id": 21,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "product_defect",
+        "urgency": "critical",
+        "summary": "Kettle shattered, user burned hand, legal action imminent"
+      },
+      "errors": []
+    },
+    {
+      "id": 22,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "account",
+        "urgency": "critical",
+        "summary": "Login bug locked account, 48 hours before launch, 40 users blocked"
+      },
+      "errors": []
+    },
+    {
+      "id": 23,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "high",
+        "summary": "Checkout rejects all cards, error message unclear"
+      },
+      "errors": []
+    },
+    {
+      "id": 24,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "critical",
+        "summary": "Site down for 40 minutes despite status page green"
+      },
+      "errors": []
+    },
+    {
+      "id": 25,
+      "tag": "angry",
+      "valid": true,
+      "result": {
+        "category": "complaint",
+        "urgency": "low",
+        "summary": "Long-term customer expresses dissatisfaction with company direction"
+      },
+      "errors": []
+    },
+    {
+      "id": 26,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "other",
+        "urgency": "medium",
+        "summary": "Unclear issue; needs more details"
+      },
+      "errors": []
+    },
+    {
+      "id": 27,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "other",
+        "urgency": "medium",
+        "summary": "Unclear issue; needs more details"
+      },
+      "errors": []
+    },
+    {
+      "id": 28,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "medium",
+        "summary": "Unclear issue; needs product area and error text"
+      },
+      "errors": []
+    },
+    {
+      "id": 29,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "account",
+        "urgency": "medium",
+        "summary": "Unclear account issue; needs more details"
+      },
+      "errors": []
+    },
+    {
+      "id": 30,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "complaint",
+        "urgency": "low",
+        "summary": "User expresses dissatisfaction with app performance"
+      },
+      "errors": []
+    },
+    {
+      "id": 31,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "other",
+        "urgency": "medium",
+        "summary": "Unclear issue; needs more details"
+      },
+      "errors": []
+    },
+    {
+      "id": 32,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "critical",
+        "summary": "Update caused all features to fail"
+      },
+      "errors": []
+    },
+    {
+      "id": 33,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "account",
+        "urgency": "high",
+        "summary": "User locked out, cannot access account"
+      },
+      "errors": []
+    },
+    {
+      "id": 34,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "billing",
+        "urgency": "high",
+        "summary": "Payment process failed during transaction"
+      },
+      "errors": []
+    },
+    {
+      "id": 35,
+      "tag": "vague",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "medium",
+        "summary": "Data missing; user asks where it went"
+      },
+      "errors": []
+    },
+    {
+      "id": 36,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "Job application with resume"
+      },
+      "errors": []
+    },
+    {
+      "id": 37,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "Unsolicited AI sales pitch"
+      },
+      "errors": []
+    },
+    {
+      "id": 38,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "Inquiry about wedding flower services"
+      },
+      "errors": []
+    },
+    {
+      "id": 39,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "User requests restaurant recommendation for Berlin"
+      },
+      "errors": []
+    },
+    {
+      "id": 40,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "Political rant about election and media corruption"
+      },
+      "errors": []
+    },
+    {
+      "id": 41,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "Unsolicited pharmacy marketing message"
+      },
+      "errors": []
+    },
+    {
+      "id": 42,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "Request for sponsorship of children's hospital gala"
+      },
+      "errors": []
+    },
+    {
+      "id": 43,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "User inquires about company's dog name"
+      },
+      "errors": []
+    },
+    {
+      "id": 44,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "medium",
+        "summary": "Netflix app cannot connect on smart TV"
+      },
+      "errors": []
+    },
+    {
+      "id": 45,
+      "tag": "off_topic",
+      "valid": true,
+      "result": {
+        "category": "off_topic",
+        "urgency": "low",
+        "summary": "Unsolicited SEO backlink sales pitch"
+      },
+      "errors": []
+    },
+    {
+      "id": 46,
+      "tag": "edge",
+      "valid": true,
+      "result": {
+        "category": "account",
+        "urgency": "critical",
+        "summary": "Account accessed from foreign IPs; request immediate lock"
+      },
+      "errors": []
+    },
+    {
+      "id": 47,
+      "tag": "edge",
+      "valid": true,
+      "result": {
+        "category": "account",
+        "urgency": "high",
+        "summary": "GDPR deletion request for all personal data and backups within 30 days"
+      },
+      "errors": []
+    },
+    {
+      "id": 48,
+      "tag": "edge",
+      "valid": true,
+      "result": {
+        "category": "billing",
+        "urgency": "critical",
+        "summary": "Invoice displays incorrect customer address and phone number"
+      },
+      "errors": []
+    },
+    {
+      "id": 49,
+      "tag": "edge",
+      "valid": true,
+      "result": {
+        "category": "technical",
+        "urgency": "critical",
+        "summary": "All users experiencing service unavailable error since 14:05 CET"
+      },
+      "errors": []
+    },
+    {
+      "id": 50,
+      "tag": "edge",
+      "valid": true,
+      "result": {
+        "category": "product_defect",
+        "urgency": "critical",
+        "summary": "Heater sparked, burned counter, fire hazard"
+      },
+      "errors": []
+    }
+  ]
+}
