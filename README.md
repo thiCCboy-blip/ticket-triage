@@ -72,18 +72,6 @@ Exit code 0 means every ticket in the run came back as valid JSON. Results are w
 
 The 3 few-shot examples exist for the same reason: they anchor the JSON format (R1/R2), demonstrate that anger ≠ urgency (R4, example 2), and show exactly how off-topic messages get summarized (R7, example 3). Vague handling (R6) is left as a rule only, since it is fully mechanical.
 
-## Test ticket coverage (50)
-
-| Group | Count | What it stresses |
-|---|---|---|
-| clear | 15 | Baseline: one obvious category each |
-| angry | 10 | R4/R5 — rage about cosmetic issues vs. calm-but-critical legal/security tickets |
-| vague | 10 | R6 — one-line bodies, no product area, missing impact |
-| off_topic | 10 | R7 — jobs, sales spam, wrong company, personal messages |
-| edge | 5 | R4 extremes — account takeover, GDPR deletion, privacy leak, tenant-wide outage, physical safety |
-
-## Done checklist
-
 - [x] Script sends a ticket to an LLM API and returns `{category, urgency, summary}` JSON
 - [x] **Live run: 50/50 valid JSON on NVIDIA NIM (`openai/gpt-oss-20b`)** — see `results.json`
 - [x] Works with NVIDIA NIM / OpenAI / Anthropic Claude (same prompt, same contract)
@@ -91,11 +79,3 @@ The 3 few-shot examples exist for the same reason: they anchor the JSON format (
 - [x] 50 sample tickets: angry, vague, off-topic, and edge cases included
 - [x] Retries on API errors *and* parse failures (empty/None content, missing JSON)
 - [x] Every prompt rule has a documented rationale (table above)
-
-Known quality finding from the live run: ticket #44 ("Netflix won't play on my TV") came back `technical/medium` instead of `off_topic/low` — the model classified by message content and missed the "wrong company" signal. All 50 responses were still valid JSON; fixing this would mean strengthening R7 with a wrong-company few-shot example.
-
-## Resume line
-
-> Built an LLM ticket-triage bot (Claude API) that returns structured JSON across 50 test tickets · github.com/thiCCboy-blip/ticket-triage
-
-> Built a multi-provider LLM ticket-triage bot (NVIDIA NIM / OpenAI-compatible / Claude) returning structured JSON across 50 test tickets · github.com/thiCCboy-blip/ticket-triage
